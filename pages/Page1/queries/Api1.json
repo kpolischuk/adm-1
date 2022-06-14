@@ -7,8 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "http://127.0.0.1:8880"
+        "url": "http://auto.ria.com"
       },
       "invalids": [],
       "messages": [],
@@ -21,15 +20,15 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/data/brands/marka_id/6",
-      "headers": [],
-      "encodeParamsToggle": true,
-      "queryParameters": [
+      "path": "/cabinet/api",
+      "headers": [
         {
-          "key": "lang",
-          "value": "uk"
+          "key": "content-type",
+          "value": "none"
         }
       ],
+      "encodeParamsToggle": true,
+      "queryParameters": [],
       "bodyFormData": [],
       "httpMethod": "GET",
       "pluginSpecifiedTemplates": [
